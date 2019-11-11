@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+body {
+  background: url('../img/paisaje.png');
+  background-attachment: fixed;
+}
+
+#global {
+  width: 65%;
+  margin: 0px auto;
+  margin-top: 30px;
+  padding: 35px;
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+}
+
+#logo {
+  font-family: Verdana, Arial;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 75px;
+  background: #235E3D;
+  color: white;
+  text-align: center;
+  width: 385px;
+  height: 80px;
+  margin-bottom: 20px;
+  float: left;
+  text-transform: uppercase;
+}
+
+#menu {
+  font-family: Helvetica, Arial;
+  background: #333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#menu ul {
+  line-height: 46px;
+}
+
+#menu ul li {
+  height: 46px;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+#menu ul li:hover {
+  background: #235E3D;
+}
+
+#menu a {
+  display: block;
+  color: white;
+  text-decoration: none; /* para que no muestre el subrayado del texto */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#image {
+  width: 80%;
+  height: 300px;
+  box-shadow: 0px 0px 10px gray;
+  /* margin-bottom: 40px; este atributo tiene que ir abajo de margin para surgir efecto */
+  margin: 0px auto;
+  margin-bottom: 28px;
+}
+
+#image img {
+  height: 90%;
+  margin-top: 16px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#article {
+  width: 92%;
+  font-family: Helvetica, Arial;
+  margin: 0px auto;
+}
+
+.arti {
+  padding: 7px;
+}
+
+.arti h2 {
+  font-family: Helvetica, Arial;
+  font-size: 30px;
+  color: #333;
+}
+
+.arti p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+footer {
+  font-family: Helvetica, Arial;
+  color: white;
+  height: 47px;
+  width: 65%;
+  background: rgba(51,51,51, 0.70);
+  margin: 0px auto;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  margin-top: 50px;
+  line-height: 3; /* ajusta la altura de una línea. */
+  text-align: center;
+}
