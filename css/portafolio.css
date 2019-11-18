@@ -1,0 +1,35 @@
+.cv-article {
+  font-family: Helvetica, Arial;
+  margin-top: 40px;
+}
+.cv-article h2 {
+  font-size: 25px;
+  color: #333;
+  /* border-bottom: 4px solid #333;
+  margin-bottom: 20px;
+  border-radius: 3px; */
+  text-transform: uppercase;
+}
+
+.cv-article hr {
+  border: 1px solid #333;
+  opacity: 0.5;
+  border-radius: 3px;
+  /* margin: 0px auto; */
+  margin-top: 5px;
+  margin-bottom: 25px;
+  /* width: 400px; */
+}
+
+.cv-article ul {
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.cv-article li {
+  margin-bottom: 15px;
+}
+.cv-article strong {
+  color: #333;
+}
