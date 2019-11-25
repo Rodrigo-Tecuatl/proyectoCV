@@ -7,6 +7,7 @@
     <title>Página principal</title>
     <!-- mis etilos -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
     <!-- Mis scrips -->
     <script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -33,10 +34,23 @@
         </nav>
       </header>
       <!-- Contenido -->
-      <section id="content">
-        <div id="article">
+      <div class="MostrarMensajes"></div>
+      <div id="content">
+        <div id="box">
+          <!-- Cargar contacto -->
+          <h2>Contacto</h2>
+          <form action="" method="post" class="frmContacto">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" data-validation="alphanumeric" data-validation-length="min4">
+              <label for="asunto">Asunto</label>
+              <input type="text" name="asunto" data-validation="alpanumeric" data-validation-length="min4">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" cols="30" rows="10" data-validation="alpanumeric" data-validation-length="min4"></textarea>
+              <input type="submit" value="Enviar">
+          </form>
         </div>
-      </section>
+      </div>
+      <div class="clearfix"></div>
     </section>
     <footer>Ing Rodrigo Tecuatl Cuautle</footer>
 </body>
