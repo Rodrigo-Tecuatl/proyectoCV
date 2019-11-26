@@ -31,3 +31,13 @@ form input[type="submit"] {
   color: #333;
   cursor: pointer;
 }
+
+/* informaciónde validación */
+.form-error {
+  float: right;
+  font-size: 11px;
+  background: red;
+  color: white;
+  padding: 10px;
+  width: 65%;
+}

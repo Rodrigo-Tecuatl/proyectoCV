@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/contacto.css">
     <!-- Mis scrips -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Información de la página: http://www.formvalidator.net/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 </head>
 <body>
     <section id="global">
@@ -43,9 +46,9 @@
               <label for="name">Nombre</label>
               <input type="text" name="name" data-validation="alphanumeric" data-validation-length="min4">
               <label for="asunto">Asunto</label>
-              <input type="text" name="asunto" data-validation="alpanumeric" data-validation-length="min4">
+              <input type="text" name="asunto" data-validation="alphanumeric" data-validation-length="min4">
               <label for="mensaje">Mensaje</label>
-              <textarea name="mensaje" cols="30" rows="10" data-validation="alpanumeric" data-validation-length="min4"></textarea>
+              <textarea name="mensaje" cols="30" rows="10" data-validation="alphanumeric" data-validation-length="min4"></textarea>
               <input type="submit" value="Enviar">
           </form>
         </div>
@@ -53,5 +56,12 @@
       <div class="clearfix"></div>
     </section>
     <footer>Ing Rodrigo Tecuatl Cuautle</footer>
+    <script>
+      $.validate({
+        lang: 'es',
+        errorMessagePosition: 'top',
+        scrollToTopOnError: true
+      });
+    </script>
 </body>
 </html>
